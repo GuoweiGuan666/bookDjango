@@ -16,7 +16,7 @@ def contact(request):
 			message_name, #subject or title of the email
 			message, #the message itself
 			message_email, #the email filled in the form and send us the message
-			['svitavd@gmail.com'], #our email address that receive this notice
+			['guoweiguan2016@gmail.com'], #our email address that receive this notice
 			fail_silently = False,
 			)
 
