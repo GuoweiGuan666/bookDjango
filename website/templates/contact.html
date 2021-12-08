@@ -63,7 +63,7 @@
           <nav class="classy-navbar justify-content-between" id="dentoNav">
 
             <!-- Logo -->
-            <a class="nav-brand" href="index.html"><img src="{% static 'website/img/core-img/logo.png' %}" alt=""></a>
+            <a class="nav-brand" href="index.html"><img src="{% static 'website/img/core-img/bicon3.png' %}" alt=""></a>
 
             <!-- Navbar Toggler -->
             <div class="classy-navbar-toggler">
@@ -81,8 +81,9 @@
               <!-- Nav Start -->
               <div class="classynav">
                 <ul id="nav">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="#">Pages</a>
+                  <li><a href="{% url 'home' %}">Home</a></li>
+                  <li><a href="https://fantasyrecs.w3spaces.com/">Fantasy Recommendations</a></li>
+                  <!--<li><a href="#">Pages</a>
                     <ul class="dropdown">
                       <li><a href="index.html">- Home</a></li>
                       <li><a href="about.html">- About Us</a></li>
@@ -116,7 +117,7 @@
                       <li><a href="blog.html">- Blog</a></li>
                       <li><a href="blog-details.html">- Blog Details</a></li>
                     </ul>
-                  </li>
+                  </li> -->
                   <li><a href="./contact.html">Contact</a></li>
                 </ul>
               </div>
@@ -224,13 +225,13 @@
   <!-- ***** Contact Area End ***** -->
 
   <!-- ***** Footer Area Start ***** -->
-  <footer class="footer-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/3.jpg' %});">
+  <footer class="footer-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/Lawlib.jpg' %});">
     <div class="container">
       <div class="row">
         <!-- Single Footer Widget -->
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="single-footer-widget">
-            <a href="./index.html" class="d-block mb-4"><img src="{% static 'website/img/core-img/logo.png' %}" alt=""></a>
+            <a href="./index.html" class="d-block mb-4"><img src="{% static 'website/img/core-img/bicon3.png' %}" alt=""></a>
             <p>Etiam sutor risus, dapibus act elefend katen, lacinia sitamet denim. Mauris sagittis kansa interdum dignissim.</p>
             <div class="footer-contact">
               <p><i class="icon_pin"></i> 28 Jackson Street, Chicago, 7788569 USA</p>
@@ -314,9 +315,6 @@
       <div class="row">
         <div class="col-12">
           <div class="copywrite-content">
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
       </div>
